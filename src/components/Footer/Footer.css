@@ -1,0 +1,45 @@
+.footer{
+    margin: 10px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #6F5B3E;
+    padding: 15px 0;
+    color: #6F5B3E;
+    font-weight: 400;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.footer ul li:hover,
+.footer ul li:visited{
+    color: #54858C;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+a:hover,
+a:visited{
+    color: #54858C;
+}
+
+/* --------- Media Query ---------- */
+
+@media (max-width: 600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+}
