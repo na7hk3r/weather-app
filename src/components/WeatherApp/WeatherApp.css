@@ -48,7 +48,7 @@
     color: #F9F6F0;
     display: flex;
     font-size: 120px;
-    font-weight: 400;
+    font-weight: 600;
     justify-content: center;
 }
 .weather-location{
@@ -83,4 +83,51 @@
 }
 .icon{
     margin-top: 10px;
+}
+
+/* --------- Media Query ---------- */
+
+@media (max-width: 600px){
+    .container{
+        width: 340px;
+        height: auto;
+    }
+    .top-bar{
+        padding-top: 35px;
+    }
+    .top-bar input{
+        width: 200px;
+        height: auto;
+        font-size: 14px;
+    }
+    .search-icon{
+        width: 75px;
+        height: 40px;
+    }
+    .search-icon img{
+        width: 14px;
+    }
+    .weather-image{
+        margin-top: 18px;
+    }
+    .weather-temp{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .weather-location{
+        font-size: 30px;
+    }
+    .data-container{
+        margin-top: 40px;
+    }
+    .data-container img{
+        width: 30px;
+    }
+    .data{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
 }
