@@ -1,6 +1,8 @@
 .container{
-    background-image: linear-gradient(180deg, #F9F6F0 0%, #54858C 50%, #171515 100%);
+    backdrop-filter: blur(15px);
+    background: rgba(249, 246, 240, 0.1);
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     height: 829px;
     margin-top: 75px;
     margin: auto;
