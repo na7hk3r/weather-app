@@ -6,7 +6,7 @@ import wind_icon from '../../assets/wind.png'
 
 const WeatherApp = () => {
 
-    const api_key = import.meta.env.VITE_APP_API_KEY; 
+    const api_key = import.meta.env.VITE_APP_API; 
     const [wicon, setWicon] = useState('');
     const [weatherData, setWeatherData] = useState({});
     const [suggestions, setSuggestions] = useState([]);
